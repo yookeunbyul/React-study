@@ -1,0 +1,45 @@
+.TodoItem {
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 5px;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 1px 2px 5px 1px #e0e0e0;
+    padding: 1rem;
+    display: flex;
+    /* 세로축 센터 */
+    align-items: center;
+    font-family: 'Pretendard-Regular';
+}
+
+.TodoItem + .TodoItem {
+    margin-top: 15px;
+}
+
+.content {
+    /* 커서 올리면 클릭하듯이 변경 */
+    cursor: pointer;
+    /* 차지할 수 있는 영역 모두 차지 */
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.content svg {
+    /* 로고 */
+    font-size: 1.5rem;
+    color: rgb(54, 168, 120);
+}
+
+.content .text{
+    margin-left: 0.5rem;
+    flex: 1;
+}
+
+/* {`content ${checked ? "checked" : ""}`} */
+.content.checked .text{
+    text-decoration: line-through;
+    cursor: pointer;
+    color: #e0e0e0;
+    opacity: 0.6;
+}

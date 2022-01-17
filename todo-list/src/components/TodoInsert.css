@@ -1,0 +1,61 @@
+.background{
+    position: fixed;
+    z-index: 980;
+    top: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    opacity: 0.6;
+}
+
+form {
+    flex-direction: column;
+    margin-left: 12%;
+    top: 40%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 990;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px #e0e0e0;
+    background: white;
+}
+
+form > input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid rgb(54, 168, 120);
+
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    font-family: 'Pretendard-Regular';
+}
+
+form > button {
+    padding-top: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(54, 168, 120);
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.rewrite > svg {
+    padding-top: 20px;
+    color: rgb(54, 168, 120);
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

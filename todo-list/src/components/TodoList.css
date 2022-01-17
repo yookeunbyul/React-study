@@ -1,0 +1,6 @@
+.TodoList {
+    width: 90vw;
+    /* width가 주어진 상태에서 가운데 정렬 */
+    margin-left: auto;
+    margin-right: auto;
+}

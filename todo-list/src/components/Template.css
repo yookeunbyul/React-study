@@ -1,0 +1,17 @@
+.Template {
+    padding-top: 20px;
+    /* 뷰포트 값에 맞게 전체를 보여줌 */
+    max-height: 100vh;
+}
+
+.title {
+    width: 90vw;
+    /* width가 주어진 상태에서 가운데 정렬 */
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Pretendard-Regular';
+}
